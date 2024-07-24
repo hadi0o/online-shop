@@ -1,4 +1,4 @@
-# WatchShop
+![Screenshot from 2024-07-24 23-59-30](https://github.com/user-attachments/assets/90e48139-265c-4344-9c1a-c30db55e5cc4)# WatchShop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
 
@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+تصاویر  :
+![Screenshot from 2024-07-25 00-00-06](https://github.com/user-attachments/assets/020481ac-277a-43b7-a37e-648acd150637)
+![Screenshot from 2024-07-24 23-59-58](https://github.com/user-attachments/assets/3a19cdba-aa69-47ad-9935-f1dcf1c6eba6)
+![Screenshot from 2024-07-24 23-59-54](https://github.com/user-attachments/assets/dbb4c038-4b29-42e3-8523-bd7f99877b16)
+![Screenshot from 2024-07-24 23-59-41](https://github.com/user-attachments/assets/3cc2e8cf-fd7f-4f41-b2f2-10867fd44c74)
+![Screenshot from 2024-07-24 23-59-36](https://github.com/user-attachments/assets/9e447e42-26b6-4dc8-9be1-1856aeb936bf)
