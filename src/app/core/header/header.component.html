@@ -2,26 +2,26 @@
   <div class="header_main">
     <div class="mobile_menu">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="logo_mobile"><a href="index.html"><img src="assets/images/logo.png"></a></div>
+        <div class="logo_mobile"><a [routerLink]="['']" routerLinkActive="active">dfg<img src="assets/images/logo.png"></a></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">صفحه اصلی</a>
+              <a class="nav-link" [routerLink]="['']" routerLinkActive="active">صفحه اصلی</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">درباره ما</a>
+              <a class="nav-link" [routerLink]="['about/']" routerLinkActive="active">درباره ما</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="watchs.html">محصولات</a>
+              <a class="nav-link" [routerLink]="['products/']" routerLinkActive="active">محصولات</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="testimonial.html">نظرات</a>
+              <a class="nav-link " [routerLink]="['comments/']" routerLinkActive="active">نظرات</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="contact.html">ارتباط با ما</a>
+              <a class="nav-link " [routerLink]="['contact/']" routerLinkActive="active">ارتباط با ما</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#"><img src="assets/images/search-icon.png"></a>
@@ -31,14 +31,14 @@
       </nav>
     </div>
     <div class="container-fluid">
-      <div class="logo"><a href="index.html"><img src="assets/images/logo.png"></a></div>
+<!--      <div class="logo"><a href="index.html"><img src="assets/images/logo.png"></a></div>-->
       <div class="menu_main">
         <ul>
-          <li class="active"><a href="index.html">صفحه اصلی</a></li>
-          <li><a href="about.html">درباره ما</a></li>
-          <li><a href="watchs.html">ساعت ها</a></li>
-          <li><a href="testimonial.html">نظرات</a></li>
-          <li><a href="contact.html">ارتباط با ما</a></li>
+          <li class="active"><a [routerLink]="['']" routerLinkActive="active">صفحه اصلی</a></li>
+          <li><a [routerLink]="['about/']" routerLinkActive="active">درباره ما</a></li>
+          <li><a [routerLink]="['products/']" routerLinkActive="active">ساعت ها</a></li>
+          <li><a [routerLink]="['comments/']" routerLinkActive="active">نظرات</a></li>
+          <li><a [routerLink]="['contact/']" routerLinkActive="active">ارتباط با ما</a></li>
           <li><a href="#"><img src="assets/images/search-icon.png"></a></li>
         </ul>
       </div>
