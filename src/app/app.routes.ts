@@ -12,5 +12,5 @@ export const routes: Routes = [
    {path: 'contact', component: ContactComponent},
    {path: 'products', component: ProductsComponent},
 
-    {path: '**', redirectTo: 'not-found'}
+    {path: '**', redirectTo: ''}
 ];
